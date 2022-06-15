@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>Penggabungan Halaman di HTML</title>
+</head>
+  <h1>Home</h1>
+  <p>
+    <a href="file:///C:/Users/MaretaMM/Documents/Semester%203/PWEB%20Job%202/home.html" >home</a> |
+    <a href="file:///C:/Users/MaretaMM/Documents/Semester%203/PWEB%20Job%202/aboutme.html" >aboutme</a> |
+    <a href="file:///C:/Users/MaretaMM/Documents/Semester%203/PWEB%20Job%202/favorit.html" >favorit</a> |
+    <a href="file:///C:/Users/MaretaMM/Documents/Semester%203/PWEB%20Job%202/hobi.html" >hobi</a>
+  </p>
+  <hr>
+  <style>
+    body {
+      background-color:lightcyan;
+    }
+  </style>
+  <h1>Selamat Datang</h1>
+  <form action="contact.php" method="POST">
+    <fieldset>
+      <legend style="font-style: oblique;">BUKU TAMU</legend>
+      <p>
+        <label>Nama Tamu : </label>
+        <input type="text" name="nama" placeholder="Nama Lengkap" />
+        <P>
+          <label>Email :</label>
+          <input type="email" name="Email" placeholder="Email Anda" />
+        </P>
+        <p>
+          <label>Pesan :</label>
+          <input type="pesan" name="pesan" placeholder="Pesan" />
+        </p>
+        <p>
+          <label>Penilaian Web :</label>
+          <label><input type="radio" name="Penilaian Web" value="Baik Sekali" /> Baik Sekali</label>
+          <label><input type="radio" name="Penilaian Web" value="Baik" /> Baik</label>
+          <label><input type="radio" name="Penilaian Web" value="Cukup" /> Cukup</label>
+          <label><input type="radio" name="Penilaian Web" value="Kurang" /> Kurang</label>
+        </p>
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Submit" />
+      </p>
+    </fieldset>
+  </form>
+</body>
+</html>
